@@ -1,129 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Ad's board</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="bg-light">
-        <div class="container py-4 d-flex justify-content-between">
-            <div class="">
-                <img class="w-25 me-3" src="img/ad.png" alt="logo">
-                <h1 class="d-inline fs-3 align-middle">AD'S BOARD</h1>
-            </div>
-            <div class="right">
-                <button type="button" class="btn btn-warning fw-bold">+ New ad</button>
-                <a class="text-decoration-none ms-3" href="#"><img src="img/av_64.png" alt="person"> My profile</a>
-            </div>
+      <div class="container py-4 d-flex justify-content-between">
+        <div class="">
+          <a href="index.html"
+            ><img class="w-25 me-3" src="img/ad.png" alt="logo"
+          /></a>
+          <h1 class="d-inline fs-3 align-middle">AD'S BOARD</h1>
         </div>
+        <div class="right">
+          <button type="button" class="btn btn-warning fw-bold">
+            + New ad
+          </button>
+          <a class="text-decoration-none ms-3" href="#"
+            ><img src="img/av_64.png" alt="person" /> My profile</a
+          >
+        </div>
+      </div>
     </header>
     <main class="container py-4">
-        <div class="container d-flex flex-nowrap rounded bg-info">
-            <div class="input-group m-4">
-                <span class="input-group-text" id="addon-wrapping">&#128269;</span>
-                <input type="text" class="form-control rounded-end me-3" placeholder="11 999 345 ads near you" aria-label="Amount" aria-describedby="addon-wrapping">
-                <span class="input-group-text rounded-start" id="addon-wrapping">&#128205;</span>
-                <input type="text" class="form-control rounded-end me-3" placeholder="Kiev, Kiev area" aria-label="Place" aria-describedby="addon-wrapping">
-                <button type="button" class="btn btn-primary px-4 rounded-start">Search</button>
-            </div>
+      <div class="container d-flex flex-nowrap rounded bg-info">
+        <div class="input-group m-4">
+          <span class="input-group-text" id="addon-wrapping">&#128269;</span>
+          <input
+            type="text"
+            class="form-control rounded-end me-3"
+            placeholder="11 999 345 ads near you"
+            aria-label="Amount"
+            aria-describedby="addon-wrapping"
+          />
+          <span class="input-group-text rounded-start" id="addon-wrapping"
+            >&#128205;</span
+          >
+          <input
+            type="text"
+            class="form-control rounded-end me-3"
+            placeholder="Kiev, Kiev area"
+            aria-label="Place"
+            aria-describedby="addon-wrapping"
+          />
+          <button type="button" class="btn btn-primary px-4 rounded-start">
+            Search
+          </button>
         </div>
-        <div class="container py-4">
-            <div class="row">
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/007-toddler.png" alt="baby">
-                    <span>Children's world</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/005-home.png" alt="home">
-                    <span>Property</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/008-electric-car.png" alt="car">
-                    <span>Transport</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/004-gears.png" alt="gears">
-                    <span>Spare parts for cars</span>
-                </a>
-            </div>
-            <div class="row">
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center  ">
-                    <img class="w-25 p-3" src="img/icon/009-returning-visitor.png" alt="beige">
-                    <span>Jobs</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center  ">
-                    <img class="w-25 p-3" src="img/icon/003-paw-print.png" alt="paw-print">
-                    <span>Animals</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center  ">
-                    <img class="w-25 p-3" src="img/icon/002-seater-sofa.png" alt="sofa">
-                    <span>House & garden</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center  ">
-                    <img class="w-25 p-3" src="img/icon/010-smartphone.png" alt="phone">
-                    <span>Phones, Tablets & PCs</span>
-                </a>
-            </div>
-            <div class="row">
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/006-wrench.png" alt="wrench">
-                    <span>Business & services</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/001-t-shirt.png" alt="tshirt">
-                    <span>Fashion & style</span>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/001-bycicle.png" alt="bycicle">
-                    <div>Hobbies, recreation & sports</div>
-                </a>
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/002-gift-box.png" alt="gift">
-                    <span>Gifts</span>
-                </a>
-            </div>
-            <div class="row">
-                <a href="#" class="col-3 text-decoration-none d-flex align-items-center">
-                    <img class="w-25 p-3" src="img/icon/003-exchange.png" alt="exchange">
-                    <span>Exchange</span>
-                </a>                
-            </div>
+      </div>
+      <div class="container py-4">
+        <div class="row">
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img class="w-25 p-3" src="img/icon/007-toddler.png" alt="baby" />
+            <span>Children's world</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img class="w-25 p-3" src="img/icon/005-home.png" alt="home" />
+            <span>Property</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/008-electric-car.png"
+              alt="car"
+            />
+            <span>Transport</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img class="w-25 p-3" src="img/icon/004-gears.png" alt="gears" />
+            <span>Spare parts for cars</span>
+          </a>
         </div>
+        <div class="row">
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/009-returning-visitor.png"
+              alt="beige"
+            />
+            <span>Jobs</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/003-paw-print.png"
+              alt="paw-print"
+            />
+            <span>Animals</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/002-seater-sofa.png"
+              alt="sofa"
+            />
+            <span>House & garden</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/010-smartphone.png"
+              alt="phone"
+            />
+            <span>Phones, Tablets & PCs</span>
+          </a>
+        </div>
+        <div class="row">
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img class="w-25 p-3" src="img/icon/006-wrench.png" alt="wrench" />
+            <span>Business & services</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img class="w-25 p-3" src="img/icon/001-t-shirt.png" alt="tshirt" />
+            <span>Fashion & style</span>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/001-bycicle.png"
+              alt="bycicle"
+            />
+            <div>Hobbies, recreation & sports</div>
+          </a>
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img class="w-25 p-3" src="img/icon/002-gift-box.png" alt="gift" />
+            <span>Gifts</span>
+          </a>
+        </div>
+        <div class="row">
+          <a
+            href="index2.html"
+            class="col-3 text-decoration-none d-flex align-items-center"
+          >
+            <img
+              class="w-25 p-3"
+              src="img/icon/003-exchange.png"
+              alt="exchange"
+            />
+            <span>Exchange</span>
+          </a>
+        </div>
+      </div>
     </main>
     <footer class="container">
-        <div class="row border-top py-4">
-            <div class="col-3">
-                <img class="p-4" src="img/ad_bw.png" alt="logo">
-            </div>
-            <div class="col-3 d-flex flex-column">
-                <a class="text-decoration-none p-1" href="#">Mobile applications</a>
-                <a class="text-decoration-none p-1" href="#">Paid services</a>
-                <a class="text-decoration-none p-1" href="#">Advertising on the website</a>
-                <a class="text-decoration-none p-1" href="#">For the ptess</a>
-                <a class="text-decoration-none p-1" href="#">Help and Feedback</a>
-            </div>
-            <div class="col-3 d-flex flex-column">
-                <a class="text-decoration-none p-1" href="#">AD'S BOARD blog</a>
-                <a class="text-decoration-none p-1" href="#">Safety regulations</a>
-                <a class="text-decoration-none p-1" href="#">How to sell and buy?</a>
-                <a class="text-decoration-none p-1" href="#">Terms of Use</a>
-                <a class="text-decoration-none p-1" href="#">Partners</a>
-            </div>
-            <div class="col-3 d-flex flex-column">
-                <a class="text-decoration-none p-1" href="#">Work at AD'S BOARD</a>
-                <a class="text-decoration-none p-1" href="#">Popular Searches</a>
-                <a class="text-decoration-none p-1" href="#">Map of Regions</a>
-                <a class="text-decoration-none p-1" href="#">Advertising preferences</a>
-                <a class="text-decoration-none p-1" href="#">Site Map</a>
-            </div>
+      <div class="row border-top py-4">
+        <div class="col-3">
+          <a href="index.html"
+            ><img class="p-4" src="img/ad_bw.png" alt="logo"
+          /></a>
         </div>
+        <div class="col-3 d-flex flex-column">
+          <a class="text-decoration-none p-1" href="#">Mobile applications</a>
+          <a class="text-decoration-none p-1" href="#">Paid services</a>
+          <a class="text-decoration-none p-1" href="#"
+            >Advertising on the website</a
+          >
+          <a class="text-decoration-none p-1" href="#">For the ptess</a>
+          <a class="text-decoration-none p-1" href="#">Help and Feedback</a>
+        </div>
+        <div class="col-3 d-flex flex-column">
+          <a class="text-decoration-none p-1" href="#">AD'S BOARD blog</a>
+          <a class="text-decoration-none p-1" href="#">Safety regulations</a>
+          <a class="text-decoration-none p-1" href="#">How to sell and buy?</a>
+          <a class="text-decoration-none p-1" href="#">Terms of Use</a>
+          <a class="text-decoration-none p-1" href="#">Partners</a>
+        </div>
+        <div class="col-3 d-flex flex-column">
+          <a class="text-decoration-none p-1" href="#">Work at AD'S BOARD</a>
+          <a class="text-decoration-none p-1" href="#">Popular Searches</a>
+          <a class="text-decoration-none p-1" href="#">Map of Regions</a>
+          <a class="text-decoration-none p-1" href="#"
+            >Advertising preferences</a
+          >
+          <a class="text-decoration-none p-1" href="#">Site Map</a>
+        </div>
+      </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
